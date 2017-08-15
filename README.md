@@ -1,1 +1,1 @@
-# MEAN-Angi4
+# MEAN Stack with Angular 4
