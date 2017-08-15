@@ -1,0 +1,30 @@
+{
+  "name": "mean-angi4",
+  "version": "1.0.0",
+  "description": "Mean Stack With Angular 4",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarlit/MEAN-Angi4.git"
+  },
+  "keywords": [
+    "Mean",
+    "Stack",
+    "Angular 4",
+    "Application"
+  ],
+  "author": "TanyaTsv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tarlit/MEAN-Angi4/issues"
+  },
+  "homepage": "https://github.com/tarlit/MEAN-Angi4#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.7"
+  }
+}
