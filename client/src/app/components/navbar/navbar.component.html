@@ -1,0 +1,36 @@
+<nav class="navbar navbar-toggleable-md navbar-primary bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" routerLink="/home">MEAN Angular4</a>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <ul class="navbar-nav">
+      <li><a class="nav-item nav-link"
+        routerLink="/"
+        [routerLinkActive]="['active']"
+        [routerLinkActiveOptions]="{exact: true}">Home</a></li>
+      <li><a class="nav-item nav-link"
+        routerLink="/dashboard"
+        [routerLinkActive]="['active']"
+        [routerLinkActiveOptions]="{exact: true}">Dashboard</a></li>
+      <li><a class="nav-item nav-link"
+        routerLink="/"
+        [routerLinkActive]="['active']"
+        [routerLinkActiveOptions]="{exact: true}">Profile</a></li>
+      <li><a class="nav-item nav-link"
+        routerLink="/"
+        [routerLinkActive]="['active']"
+        [routerLinkActiveOptions]="{exact: true}">Blog</a></li>
+    </ul>
+    <ul class="navbar-nav navbar-right">
+      <li><a class="nav-item nav-link"
+        routerLink="/"
+        [routerLinkActive]="['active']"
+        [routerLinkActiveOptions]="{exact: true}">Login</a></li>
+      <li><a class="nav-item nav-link"
+        routerLink="/"
+        [routerLinkActive]="['active']"
+        [routerLinkActiveOptions]="{exact: true}">Register</a></li>
+    </ul>
+  </div>
+</nav>
